@@ -1,0 +1,22 @@
+(9, 3695, 1)
+(9, 4)
+Epoch 1/10
+
+3/3 [==============================] - ETA: 0s - loss: 17.9453 - accuracy: 0.2222
+Traceback (most recent call last):
+  File "train_cnn.py", line 39, in <module>
+    model.fit(x=train_x, y=train_y, batch_size=3, epochs=10, validation_data=(test_x,train_x),callbacks=[WandbMetricsLogger()])
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\engine\data_adapter.py", line 1848, in _check_data_cardinality
+    raise ValueError(msg)
+ValueError: Data cardinality is ambiguous:
+  x sizes: 6
+  y sizes: 9
+Make sure all arrays contain the same number of samples.

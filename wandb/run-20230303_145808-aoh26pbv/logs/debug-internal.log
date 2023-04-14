@@ -1,0 +1,218 @@
+2023-03-03 14:58:08,729 INFO    StreamThr :14060 [internal.py:wandb_internal():90] W&B internal server running at pid: 14060, started at: 2023-03-03 14:58:08.728859
+2023-03-03 14:58:08,731 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status
+2023-03-03 14:58:08,736 INFO    WriterThread:14060 [datastore.py:open_for_write():85] open: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\run-aoh26pbv.wandb
+2023-03-03 14:58:08,737 DEBUG   SenderThread:14060 [sender.py:send():334] send: header
+2023-03-03 14:58:08,791 DEBUG   SenderThread:14060 [sender.py:send():334] send: run
+2023-03-03 14:58:09,156 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: check_version
+2023-03-03 14:58:09,158 INFO    SenderThread:14060 [dir_watcher.py:__init__():216] watching files in: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files
+2023-03-03 14:58:09,159 INFO    SenderThread:14060 [sender.py:_start_run_threads():1068] run started: aoh26pbv with start time 1677884288.730857
+2023-03-03 14:58:09,159 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: summary_record
+2023-03-03 14:58:09,160 INFO    SenderThread:14060 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-03 14:58:09,160 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: check_version
+2023-03-03 14:58:09,307 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: run_start
+2023-03-03 14:58:09,316 DEBUG   HandlerThread:14060 [system_info.py:__init__():31] System info init
+2023-03-03 14:58:09,316 DEBUG   HandlerThread:14060 [system_info.py:__init__():46] System info init done
+2023-03-03 14:58:09,317 INFO    HandlerThread:14060 [system_monitor.py:start():151] Starting system monitor
+2023-03-03 14:58:09,317 INFO    SystemMonitor:14060 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-03 14:58:09,317 INFO    HandlerThread:14060 [system_monitor.py:probe():172] Collecting system info
+2023-03-03 14:58:09,317 INFO    SystemMonitor:14060 [interfaces.py:start():168] Started cpu
+2023-03-03 14:58:09,323 DEBUG   HandlerThread:14060 [system_info.py:probe():195] Probing system
+2023-03-03 14:58:09,324 INFO    SystemMonitor:14060 [interfaces.py:start():168] Started disk
+2023-03-03 14:58:09,329 INFO    SystemMonitor:14060 [interfaces.py:start():168] Started memory
+2023-03-03 14:58:09,336 INFO    SystemMonitor:14060 [interfaces.py:start():168] Started network
+2023-03-03 14:58:09,337 DEBUG   HandlerThread:14060 [system_info.py:_probe_git():180] Probing git
+2023-03-03 14:58:09,428 DEBUG   HandlerThread:14060 [system_info.py:_probe_git():188] Probing git done
+2023-03-03 14:58:09,428 DEBUG   HandlerThread:14060 [system_info.py:probe():241] Probing system done
+2023-03-03 14:58:09,428 DEBUG   HandlerThread:14060 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.9', 'heartbeatAt': '2023-03-03T22:58:09.323677', 'startedAt': '2023-03-03T22:58:08.708886', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'DEFUNCT_train_cnn.py', 'codePath': 'DEFUNCT_train_cnn.py', 'git': {'remote': 'https://github.com/greatroboticslab/SpectrometerLearner.git', 'commit': '202c88ad24b5a1d08049e1eeed7b776c8279fb29'}, 'email': 'seanbyler12@gmail.com', 'root': 'C:/Programs/SpectrometerLearner', 'host': 'DESKTOP-AB4NMKB', 'username': 'SS&AL', 'executable': 'C:\\Users\\SS&AL\\AppData\\Local\\Programs\\Python\\Python37\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 3401.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 3401.0}], 'disk': {'total': 232.33638381958008, 'used': 135.68062210083008}, 'memory': {'total': 15.892860412597656}}
+2023-03-03 14:58:09,429 INFO    HandlerThread:14060 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-03 14:58:09,429 INFO    HandlerThread:14060 [system_monitor.py:probe():185] Publishing system info
+2023-03-03 14:58:09,429 DEBUG   HandlerThread:14060 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-03-03 14:58:09,430 DEBUG   HandlerThread:14060 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-03 14:58:09,431 INFO    HandlerThread:14060 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-03 14:58:09,442 DEBUG   SenderThread:14060 [sender.py:send():334] send: files
+2023-03-03 14:58:09,442 INFO    SenderThread:14060 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2023-03-03 14:58:09,452 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-03 14:58:09,453 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: stop_status
+2023-03-03 14:58:09,721 DEBUG   SenderThread:14060 [sender.py:send():334] send: telemetry
+2023-03-03 14:58:10,040 INFO    Thread-24 :14060 [upload_job.py:push():143] Uploaded file C:\Users\SS&AL\AppData\Local\Temp\tmpd6icslgwwandb\y7i72fo4-wandb-metadata.json
+2023-03-03 14:58:10,174 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\requirements.txt
+2023-03-03 14:58:10,175 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\wandb-metadata.json
+2023-03-03 14:58:10,175 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\wandb-summary.json
+2023-03-03 14:58:13,756 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:18,803 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:23,852 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:24,466 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:24,467 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:28,897 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:29,884 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:33,942 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:35,499 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:38,997 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:39,450 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\config.yaml
+2023-03-03 14:58:40,535 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:44,185 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:46,348 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:49,236 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:51,392 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:54,284 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:58:56,511 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:58:59,327 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:01,657 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:04,391 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:06,952 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:09,339 DEBUG   SystemMonitor:14060 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-03 14:59:09,340 DEBUG   SenderThread:14060 [sender.py:send():334] send: stats
+2023-03-03 14:59:10,352 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:12,879 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:12,879 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:15,406 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:17,932 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:20,457 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:22,976 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:25,494 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:28,590 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:28,590 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:30,551 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:33,841 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:35,604 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:39,214 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:39,341 DEBUG   SenderThread:14060 [sender.py:send():334] send: stats
+2023-03-03 14:59:41,362 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:44,266 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:46,415 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:49,168 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_created():275] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\output.log
+2023-03-03 14:59:49,713 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-03 14:59:50,757 DEBUG   SenderThread:14060 [sender.py:send():334] send: exit
+2023-03-03 14:59:50,757 INFO    SenderThread:14060 [sender.py:send_exit():557] handling exit code: 1
+2023-03-03 14:59:50,758 INFO    SenderThread:14060 [sender.py:send_exit():559] handling runtime: 101
+2023-03-03 14:59:50,758 INFO    SenderThread:14060 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-03 14:59:50,758 INFO    SenderThread:14060 [sender.py:send_exit():565] send defer
+2023-03-03 14:59:50,759 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,759 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-03 14:59:50,759 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,759 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 0
+2023-03-03 14:59:50,759 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 1
+2023-03-03 14:59:50,760 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,760 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-03 14:59:50,760 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,760 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 1
+2023-03-03 14:59:50,760 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 2
+2023-03-03 14:59:50,760 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,760 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-03 14:59:50,760 INFO    HandlerThread:14060 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-03 14:59:50,761 DEBUG   SystemMonitor:14060 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-03 14:59:50,761 DEBUG   SystemMonitor:14060 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-03 14:59:50,762 INFO    HandlerThread:14060 [interfaces.py:finish():175] Joined cpu
+2023-03-03 14:59:50,762 INFO    HandlerThread:14060 [interfaces.py:finish():175] Joined disk
+2023-03-03 14:59:50,762 INFO    HandlerThread:14060 [interfaces.py:finish():175] Joined memory
+2023-03-03 14:59:50,762 INFO    HandlerThread:14060 [interfaces.py:finish():175] Joined network
+2023-03-03 14:59:50,763 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,763 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 2
+2023-03-03 14:59:50,763 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 3
+2023-03-03 14:59:50,763 DEBUG   SenderThread:14060 [sender.py:send():334] send: stats
+2023-03-03 14:59:50,763 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,764 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-03 14:59:50,764 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,764 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 3
+2023-03-03 14:59:50,764 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 4
+2023-03-03 14:59:50,764 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,764 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-03 14:59:50,765 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,765 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 4
+2023-03-03 14:59:50,765 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 5
+2023-03-03 14:59:50,765 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,765 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-03 14:59:50,766 DEBUG   SenderThread:14060 [sender.py:send():334] send: summary
+2023-03-03 14:59:50,766 INFO    SenderThread:14060 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2023-03-03 14:59:50,767 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,767 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 5
+2023-03-03 14:59:50,767 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 6
+2023-03-03 14:59:50,767 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,767 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-03 14:59:50,767 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,767 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 6
+2023-03-03 14:59:50,768 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 7
+2023-03-03 14:59:50,768 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:50,768 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:50,768 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-03 14:59:50,768 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:50,768 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 7
+2023-03-03 14:59:51,189 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\output.log
+2023-03-03 14:59:51,190 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\wandb-summary.json
+2023-03-03 14:59:51,768 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-03 14:59:52,767 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 8
+2023-03-03 14:59:52,767 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: poll_exit
+2023-03-03 14:59:52,768 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:52,769 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-03 14:59:52,770 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:52,770 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 8
+2023-03-03 14:59:52,779 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-03 14:59:52,828 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 9
+2023-03-03 14:59:52,828 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: poll_exit
+2023-03-03 14:59:52,829 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:52,829 DEBUG   SenderThread:14060 [sender.py:send():334] send: artifact
+2023-03-03 14:59:52,830 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-03 14:59:53,218 INFO    Thread-19 :14060 [dir_watcher.py:_on_file_modified():292] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\output.log
+2023-03-03 14:59:53,784 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-03 14:59:53,952 INFO    Thread-26 :14060 [upload_job.py:push():101] Uploaded file C:\Users\SS&AL\AppData\Local\wandb\wandb\artifacts\staging\tmpw_1yjg71
+2023-03-03 14:59:53,959 INFO    Thread-27 :14060 [upload_job.py:push():101] Uploaded file C:\Users\SS&AL\AppData\Local\wandb\wandb\artifacts\staging\tmp8ma36z8g
+2023-03-03 14:59:55,671 INFO    SenderThread:14060 [sender.py:send_artifact():1415] sent artifact job-https___github.com_greatroboticslab_SpectrometerLearner.git_DEFUNCT_train_cnn.py - {'id': 'QXJ0aWZhY3Q6Mzg3NTg2NjQw', 'digest': 'c15f6c0fd79c895e4b6ce0ab5d1b98bb', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU1NjkzMTEz', 'latestArtifact': None}, 'version': 'latest'}
+2023-03-03 14:59:55,671 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:55,672 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 9
+2023-03-03 14:59:55,672 INFO    SenderThread:14060 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-03 14:59:56,223 INFO    SenderThread:14060 [dir_watcher.py:finish():392] scan: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files
+2023-03-03 14:59:56,224 INFO    SenderThread:14060 [dir_watcher.py:finish():406] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\config.yaml config.yaml
+2023-03-03 14:59:56,225 INFO    SenderThread:14060 [dir_watcher.py:finish():406] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\output.log output.log
+2023-03-03 14:59:56,237 INFO    SenderThread:14060 [dir_watcher.py:finish():406] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\requirements.txt requirements.txt
+2023-03-03 14:59:56,249 INFO    SenderThread:14060 [dir_watcher.py:finish():406] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\wandb-metadata.json wandb-metadata.json
+2023-03-03 14:59:56,249 INFO    SenderThread:14060 [dir_watcher.py:finish():406] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\wandb-summary.json wandb-summary.json
+2023-03-03 14:59:56,260 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 10
+2023-03-03 14:59:56,260 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: poll_exit
+2023-03-03 14:59:56,261 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:56,268 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-03 14:59:56,269 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:56,270 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 10
+2023-03-03 14:59:56,270 INFO    SenderThread:14060 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-03 14:59:56,722 INFO    Thread-30 :14060 [upload_job.py:push():143] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\requirements.txt
+2023-03-03 14:59:56,736 INFO    Thread-31 :14060 [upload_job.py:push():143] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\wandb-summary.json
+2023-03-03 14:59:57,141 INFO    Thread-28 :14060 [upload_job.py:push():143] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\config.yaml
+2023-03-03 14:59:57,223 INFO    Thread-29 :14060 [upload_job.py:push():143] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\files\output.log
+2023-03-03 14:59:57,425 INFO    Thread-18 :14060 [sender.py:transition_state():585] send defer: 11
+2023-03-03 14:59:57,426 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:57,426 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-03 14:59:57,427 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:57,427 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 11
+2023-03-03 14:59:57,428 INFO    SenderThread:14060 [file_pusher.py:join():165] waiting for file pusher
+2023-03-03 14:59:57,428 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 12
+2023-03-03 14:59:57,429 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:57,429 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-03 14:59:57,430 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:57,430 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 12
+2023-03-03 14:59:57,675 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 13
+2023-03-03 14:59:57,675 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:57,676 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-03 14:59:57,677 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:57,677 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 13
+2023-03-03 14:59:57,677 INFO    SenderThread:14060 [sender.py:transition_state():585] send defer: 14
+2023-03-03 14:59:57,678 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: defer
+2023-03-03 14:59:57,679 INFO    HandlerThread:14060 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-03 14:59:57,680 DEBUG   SenderThread:14060 [sender.py:send():334] send: final
+2023-03-03 14:59:57,680 DEBUG   SenderThread:14060 [sender.py:send():334] send: footer
+2023-03-03 14:59:57,681 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: defer
+2023-03-03 14:59:57,681 INFO    SenderThread:14060 [sender.py:send_request_defer():581] handle sender defer: 14
+2023-03-03 14:59:57,684 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-03 14:59:57,685 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: server_info
+2023-03-03 14:59:57,685 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-03 14:59:57,686 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-03 14:59:57,687 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: poll_exit
+2023-03-03 14:59:57,689 DEBUG   SenderThread:14060 [sender.py:send_request():361] send_request: server_info
+2023-03-03 14:59:57,827 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: status_report
+2023-03-03 14:59:57,827 INFO    MainThread:14060 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2023-03-03 14:59:57,828 INFO    MainThread:14060 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2023-03-03 14:59:57,829 INFO    MainThread:14060 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2023-03-03 14:59:57,835 DEBUG   HandlerThread:14060 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-03 14:59:57,836 INFO    HandlerThread:14060 [handler.py:finish():841] shutting down handler
+2023-03-03 14:59:58,832 INFO    WriterThread:14060 [datastore.py:close():299] close: C:\Programs\SpectrometerLearner\wandb\run-20230303_145808-aoh26pbv\run-aoh26pbv.wandb
+2023-03-03 14:59:58,832 INFO    SenderThread:14060 [sender.py:finish():1491] shutting down sender
+2023-03-03 14:59:58,833 INFO    SenderThread:14060 [file_pusher.py:finish():160] shutting down file pusher
+2023-03-03 14:59:58,833 INFO    SenderThread:14060 [file_pusher.py:join():165] waiting for file pusher

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Programs\SpectrometerLearner\main.py", line 299, in <module>
+    'train/learning_rate':scheduler.get_last_lr()[0],
+NameError: name 'scheduler' is not defined

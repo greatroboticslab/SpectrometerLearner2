@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2023-03-04T00:29:56.606494",
+    "startedAt": "2023-03-04T00:29:56.057140",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "DEFUNCT_train_cnn.py",
+    "codePath": "DEFUNCT_train_cnn.py",
+    "git": {
+        "remote": "https://github.com/greatroboticslab/SpectrometerLearner.git",
+        "commit": "4a1f8b1628770d1ff8776c4132d46a84cc8764e7"
+    },
+    "email": "seanbyler12@gmail.com",
+    "root": "C:/Programs/SpectrometerLearner",
+    "host": "DESKTOP-AB4NMKB",
+    "username": "SS&AL",
+    "executable": "C:\\Users\\SS&AL\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3200.0,
+        "min": 0.0,
+        "max": 3401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3200.0,
+            "min": 0.0,
+            "max": 3401.0
+        }
+    ],
+    "disk": {
+        "total": 232.33638381958008,
+        "used": 135.64546966552734
+    },
+    "memory": {
+        "total": 15.892860412597656
+    }
+}

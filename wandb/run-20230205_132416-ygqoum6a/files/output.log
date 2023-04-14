@@ -1,0 +1,25 @@
+Epoch 0/300	ETA: 0.1019282341003418min.
+Validation accuracy: 3.743315488100052
+Validation loss: tensor(59.8079, grad_fn=<AddBackward0>)
+Epoch 50/300	ETA: 5.48016091187795min.
+Validation accuracy: 3.743315488100052
+Validation loss: tensor(59.7619, grad_fn=<AddBackward0>)
+Epoch 100/300	ETA: 9.073423862457275min.
+Validation accuracy: 3.743315488100052
+Validation loss: tensor(59.7275, grad_fn=<AddBackward0>)
+Epoch 150/300	ETA: 10.331533432006836min.
+Validation accuracy: 3.743315488100052
+Validation loss: tensor(59.7085, grad_fn=<AddBackward0>)
+Epoch 200/300	ETA: 9.232003291447958min.
+Validation accuracy: 3.743315488100052
+Validation loss: tensor(59.6951, grad_fn=<AddBackward0>)
+Epoch 250/300	ETA: 5.776667674382527min.
+Validation accuracy: 3.743315488100052
+Validation loss: tensor(59.6396, grad_fn=<AddBackward0>)
+Now checking final accuracy...
+Train Data:
+Checking training data
+Got 125 / 3375 with accuracy  3.70
+Test Data:
+Checking training data
+Got 83 / 2253 with accuracy  3.68

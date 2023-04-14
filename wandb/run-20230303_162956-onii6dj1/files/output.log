@@ -1,0 +1,12 @@
+(3375, 3695, 1)
+(3375, 27)
+Traceback (most recent call last):
+  File "DEFUNCT_train_cnn.py", line 46, in <module>
+    model.add(layers.Dense(4000, input_shape=(train_x.shape[1:],), activation='relu'))
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\trackable\base.py", line 205, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\framework\tensor_shape.py", line 217, in __init__
+    value, type(value))) from None
+TypeError: Dimension value must be integer or None or have an __index__ method, got value '(3695, 1)' with type '<class 'tuple'>'

@@ -1,0 +1,12 @@
+(3375, 3695, 1)
+(3375, 27)
+Traceback (most recent call last):
+  File "DEFUNCT_train_cnn.py", line 40, in <module>
+    model.add(layers.Conv1D(64, 2, activation='relu', input_shape=(train_x.shape[1],)))
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\trackable\base.py", line 205, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\engine\input_spec.py", line 251, in assert_input_compatibility
+    f'Input {input_index} of layer "{layer_name}" '
+ValueError: Input 0 of layer "conv1d" is incompatible with the layer: expected min_ndim=3, found ndim=2. Full shape received: (None, 3695)

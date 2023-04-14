@@ -1,0 +1,13 @@
+Epoch 0/100	ETA: 0.03135553995768229min.
+Validation accuracy: 100.0
+Validation loss: 0.0
+Epoch 50/100	ETA: 0.03433473904927572min.
+Validation accuracy: 100.0
+Validation loss: 0.0
+Now checking final accuracy...
+Train Data:
+Checking training data
+Got 2 / 2 with accuracy  100.00
+Test Data:
+Checking training data
+Got 2 / 2 with accuracy  100.00

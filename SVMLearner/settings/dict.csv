@@ -1,0 +1,3 @@
+id,subject,subtype,healthy,wavelength
+1,soybean_leaf,young,yes,0.0
+2,soybean_leaf,young,no,0.0

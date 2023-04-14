@@ -1,0 +1,1 @@
+"Spectrometer Reader.exe" -subject subject -subtype young -wavelength 400 -healthy yes -read -nobinary -unknown

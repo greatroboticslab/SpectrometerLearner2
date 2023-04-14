@@ -1,0 +1,67 @@
+Epoch 0/1000	ETA: 0.023323694864908855min.
+Validation accuracy: 50.0
+Validation loss: 21.269973754882812
+Epoch 50/1000	ETA: 0.3766210476557414min.
+Validation accuracy: 50.0
+Validation loss: 3.5729291439056396
+Epoch 100/1000	ETA: 0.6836113929748535min.
+Validation accuracy: 50.0
+Validation loss: 3.015101432800293
+Epoch 150/1000	ETA: 0.9514588117599487min.
+Validation accuracy: 50.0
+Validation loss: 1.6673071384429932
+Epoch 200/1000	ETA: 1.1859893798828125min.
+Validation accuracy: 50.0
+Validation loss: 2.344980239868164
+Epoch 250/1000	ETA: 1.371719241142273min.
+Validation accuracy: 50.0
+Validation loss: 1.6095012426376343
+Epoch 300/1000	ETA: 1.277938683827718min.
+Validation accuracy: 50.0
+Validation loss: 2.113788366317749
+Epoch 350/1000	ETA: 1.1953166723251343min.
+Validation accuracy: 50.0
+Validation loss: 1.5831305980682373
+Epoch 400/1000	ETA: 1.1073637008666992min.
+Validation accuracy: 50.0
+Validation loss: 1.9203252792358398
+Epoch 450/1000	ETA: 1.0169196526209514min.
+Validation accuracy: 50.0
+Validation loss: 1.5412347316741943
+Epoch 500/1000	ETA: 0.9277975559234619min.
+Validation accuracy: 50.0
+Validation loss: 1.7523107528686523
+Epoch 550/1000	ETA: 0.8320237398147583min.
+Validation accuracy: 50.0
+Validation loss: 1.4827492237091064
+Epoch 600/1000	ETA: 0.7382424672444662min.
+Validation accuracy: 50.0
+Validation loss: 1.6038011312484741
+Epoch 650/1000	ETA: 0.6471301317214966min.
+Validation accuracy: 50.0
+Validation loss: 1.410312533378601
+Epoch 700/1000	ETA: 0.5556824207305908min.
+Validation accuracy: 50.0
+Validation loss: 1.4697213172912598
+Epoch 750/1000	ETA: 0.46306927998860675min.
+Validation accuracy: 50.0
+Validation loss: 1.327338695526123
+Epoch 800/1000	ETA: 0.378448486328125min.
+Validation accuracy: 50.0
+Validation loss: 1.3451708555221558
+Epoch 850/1000	ETA: 0.28833484649658203min.
+Validation accuracy: 50.0
+Validation loss: 1.2365953922271729
+Epoch 900/1000	ETA: 0.19622103373209634min.
+Validation accuracy: 50.0
+Validation loss: 1.2261441946029663
+Epoch 950/1000	ETA: 0.0996094544728597min.
+Validation accuracy: 50.0
+Validation loss: 1.1403080224990845
+Now checking final accuracy...
+Train Data:
+Checking training data
+Got 1 / 2 with accuracy  50.00
+Test Data:
+Checking training data
+Got 1 / 2 with accuracy  50.00

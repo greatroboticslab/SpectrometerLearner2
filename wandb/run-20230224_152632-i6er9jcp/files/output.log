@@ -1,0 +1,25 @@
+(9, 3695, 1)
+(9, 4)
+Epoch 1/10
+3/3 [==============================] - 4s 1s/step - loss: 7.1121 - accuracy: 0.1111 - val_loss: 9.7274 - val_accuracy: 0.1667
+Epoch 2/10
+3/3 [==============================] - 4s 1s/step - loss: 4.6999 - accuracy: 0.5556 - val_loss: 6.6568 - val_accuracy: 0.1667
+Epoch 3/10
+3/3 [==============================] - 4s 1s/step - loss: 4.2530 - accuracy: 0.6667 - val_loss: 2.9187 - val_accuracy: 0.6667
+Epoch 4/10
+3/3 [==============================] - 4s 1s/step - loss: 0.2388 - accuracy: 1.0000 - val_loss: 1.0133 - val_accuracy: 0.8333
+Epoch 5/10
+3/3 [==============================] - 3s 1s/step - loss: 0.0012 - accuracy: 1.0000 - val_loss: 1.0169 - val_accuracy: 1.0000
+Epoch 6/10
+3/3 [==============================] - 3s 1s/step - loss: 0.0330 - accuracy: 1.0000 - val_loss: 2.7832 - val_accuracy: 0.8333
+Epoch 7/10
+
+3/3 [==============================] - 3s 1s/step - loss: 0.7389 - accuracy: 0.8889 - val_loss: 3.8304 - val_accuracy: 0.8333
+Epoch 8/10
+3/3 [==============================] - 3s 1s/step - loss: 0.0401 - accuracy: 1.0000 - val_loss: 0.6699 - val_accuracy: 1.0000
+Epoch 9/10
+3/3 [==============================] - 3s 1s/step - loss: 1.8500e-05 - accuracy: 1.0000 - val_loss: 0.6260 - val_accuracy: 0.8333
+Epoch 10/10
+
+
+3/3 [==============================] - 3s 1s/step - loss: 8.9425e-07 - accuracy: 1.0000 - val_loss: 1.8474 - val_accuracy: 0.8333

@@ -1,0 +1,67 @@
+(3375, 3695, 1)
+(3375, 27)
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ dense (Dense)               (None, 4000)              14784000
+ dense_1 (Dense)             (None, 256)               1024256
+ dense_2 (Dense)             (None, 27)                6939
+=================================================================
+Total params: 15,815,195
+Trainable params: 15,815,195
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/10
+
+
+
+
+53/53 [==============================] - 10s 177ms/step - loss: 28971.4180 - accuracy: 0.0400 - val_loss: 1595.7922 - val_accuracy: 0.0373
+Epoch 2/10
+
+
+
+53/53 [==============================] - 9s 173ms/step - loss: 147.2544 - accuracy: 0.0379 - val_loss: 3.4094 - val_accuracy: 0.0368
+Epoch 3/10
+
+
+
+
+53/53 [==============================] - 9s 174ms/step - loss: 3.2959 - accuracy: 0.0350 - val_loss: 3.4101 - val_accuracy: 0.0368
+Epoch 4/10
+
+14/53 [======>.......................] - ETA: 6s - loss: 3.2958 - accuracy: 0.0268
+Traceback (most recent call last):
+  File "DEFUNCT_train_cnn.py", line 58, in <module>
+    model.fit(x=train_x, y=train_y, batch_size=64, epochs=epc, validation_data=(test_x,test_y),callbacks=[WandbMetricsLogger()])
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\engine\training.py", line 1656, in fit
+    callbacks.on_train_batch_end(end_step, logs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\callbacks.py", line 476, in on_train_batch_end
+    self._call_batch_hook(ModeKeys.TRAIN, "end", batch, logs=logs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\callbacks.py", line 323, in _call_batch_hook
+    self._call_batch_end_hook(mode, batch, logs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\callbacks.py", line 346, in _call_batch_end_hook
+    self._call_batch_hook_helper(hook_name, batch, logs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\callbacks.py", line 394, in _call_batch_hook_helper
+    hook(batch, logs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\callbacks.py", line 1094, in on_train_batch_end
+    self._batch_update_progbar(batch, logs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\callbacks.py", line 1171, in _batch_update_progbar
+    self.progbar.update(self.seen, list(logs.items()), finalize=False)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\generic_utils.py", line 297, in update
+    io_utils.print_msg(message, line_break=False)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\io_utils.py", line 79, in print_msg
+    sys.stdout.write(message)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\sdk\lib\redirect.py", line 640, in write
+    self._old_write(data)
+KeyboardInterrupt

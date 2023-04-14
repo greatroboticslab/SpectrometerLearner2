@@ -1,0 +1,120 @@
+(3375, 3695, 1)
+(3375, 27)
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv1d (Conv1D)             (None, 3694, 64)          192
+ dense (Dense)               (None, 3694, 90)          5850
+ max_pooling1d (MaxPooling1D  (None, 1847, 90)         0
+ )
+ flatten (Flatten)           (None, 166230)            0
+ dense_1 (Dense)             (None, 27)                4488237
+=================================================================
+Total params: 4,494,279
+Trainable params: 4,494,279
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 371ms/step - loss: 6102968.0000 - accuracy: 0.0341 - val_loss: 3.3805 - val_accuracy: 0.0377
+Epoch 2/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 371ms/step - loss: 3.3918 - accuracy: 0.0364 - val_loss: 3.4554 - val_accuracy: 0.0373
+Epoch 3/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 371ms/step - loss: 3.4066 - accuracy: 0.0397 - val_loss: 3.3809 - val_accuracy: 0.0373
+Epoch 4/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 373ms/step - loss: 3.4131 - accuracy: 0.0388 - val_loss: 3.3680 - val_accuracy: 0.0377
+Epoch 5/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 382ms/step - loss: 3.4106 - accuracy: 0.0326 - val_loss: 3.4123 - val_accuracy: 0.0373
+Epoch 6/10
+
+
+
+
+
+
+
+
+
+53/53 [==============================] - 21s 392ms/step - loss: 3.4049 - accuracy: 0.0373 - val_loss: 3.4479 - val_accuracy: 0.0373
+Epoch 7/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 372ms/step - loss: 3.4265 - accuracy: 0.0317 - val_loss: 3.4381 - val_accuracy: 0.0373
+Epoch 8/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 372ms/step - loss: 3.4532 - accuracy: 0.0361 - val_loss: 3.3849 - val_accuracy: 0.0377
+Epoch 9/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 375ms/step - loss: 3.4003 - accuracy: 0.0347 - val_loss: 3.4284 - val_accuracy: 0.0377
+Epoch 10/10
+
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 376ms/step - loss: 3.4043 - accuracy: 0.0400 - val_loss: 3.4486 - val_accuracy: 0.0377

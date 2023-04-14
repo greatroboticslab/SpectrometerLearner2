@@ -1,0 +1,8 @@
+(3375, 3695, 1)
+(3375, 27)
+Traceback (most recent call last):
+  File "DEFUNCT_train_cnn.py", line 46, in <module>
+    model.add(layers.Dense(input_shape=(train_x.shape[1:]), activation='relu'))
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\dtensor\utils.py", line 96, in _wrap_function
+    init_method(layer_instance, *args, **kwargs)
+TypeError: __init__() missing 1 required positional argument: 'units'

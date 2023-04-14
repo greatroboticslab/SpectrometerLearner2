@@ -1,0 +1,118 @@
+(3375, 3695, 1)
+(3375, 27)
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv1d (Conv1D)             (None, 3694, 64)          192
+ dense (Dense)               (None, 3694, 90)          5850
+ max_pooling1d (MaxPooling1D  (None, 1847, 90)         0
+ )
+ flatten (Flatten)           (None, 166230)            0
+ dense_1 (Dense)             (None, 27)                4488237
+=================================================================
+Total params: 4,494,279
+Trainable params: 4,494,279
+Non-trainable params: 0
+_________________________________________________________________
+None
+Epoch 1/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 21s 383ms/step - loss: 577.1425 - accuracy: 0.0353 - val_loss: 226.8507 - val_accuracy: 0.0377
+Epoch 2/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 378ms/step - loss: 168.3484 - accuracy: 0.0575 - val_loss: 149.8795 - val_accuracy: 0.1225
+Epoch 3/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 380ms/step - loss: 163.8256 - accuracy: 0.0729 - val_loss: 127.3544 - val_accuracy: 0.1172
+Epoch 4/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 378ms/step - loss: 134.5238 - accuracy: 0.0916 - val_loss: 147.6284 - val_accuracy: 0.1154
+Epoch 5/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 379ms/step - loss: 123.3515 - accuracy: 0.1025 - val_loss: 82.1271 - val_accuracy: 0.0777
+Epoch 6/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 379ms/step - loss: 109.8208 - accuracy: 0.1283 - val_loss: 95.3676 - val_accuracy: 0.0914
+Epoch 7/10
+
+
+
+
+
+
+
+
+53/53 [==============================] - 20s 377ms/step - loss: 128.9119 - accuracy: 0.1150 - val_loss: 115.2048 - val_accuracy: 0.0914
+Epoch 8/10
+ 4/53 [=>............................] - ETA: 15s - loss: 118.7532 - accuracy: 0.1211
+Traceback (most recent call last):
+  File "DEFUNCT_train_cnn.py", line 58, in <module>
+    model.fit(x=train_x, y=train_y, batch_size=64, epochs=epc, validation_data=(test_x,test_y),callbacks=[WandbMetricsLogger()])
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\wandb\integration\keras\keras.py", line 174, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\utils\traceback_utils.py", line 65, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\keras\engine\training.py", line 1650, in fit
+    tmp_logs = self.train_function(iterator)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 880, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 912, in _call
+    return self._no_variable_creation_fn(*args, **kwds)  # pylint: disable=not-callable
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compiler.py", line 135, in __call__
+    filtered_flat_args, captured_inputs=concrete_function.captured_inputs)  # pylint: disable=protected-access
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\eager\polymorphic_function\monomorphic_function.py", line 1746, in _call_flat
+    ctx, args, cancellation_manager=cancellation_manager))
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\eager\polymorphic_function\monomorphic_function.py", line 383, in call
+    ctx=ctx)
+  File "C:\Users\SS&AL\AppData\Local\Programs\Python\Python37\lib\site-packages\tensorflow\python\eager\execute.py", line 53, in quick_execute
+    inputs, attrs, num_outputs)
+KeyboardInterrupt
