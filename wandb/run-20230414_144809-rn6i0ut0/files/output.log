@@ -1,0 +1,8 @@
+
+torch.Size([64, 3695])
+Traceback (most recent call last):
+  File "C:\Programs\SpectrometerLearner\vanilla_train.py", line 295, in <module>
+    make_dot(scores.mean(), params=dict(model.names_parameters()))
+  File "C:\Users\SS&AL\AppData\Roaming\Python\Python39\site-packages\torch\nn\modules\module.py", line 1269, in __getattr__
+    raise AttributeError("'{}' object has no attribute '{}'".format(
+AttributeError: 'SpectrumNet' object has no attribute 'names_parameters'

@@ -3,7 +3,7 @@ from tensorflow import keras
 from tensorflow.keras import layers
 import spectrums
 
-train_x, train_y = spectrums.MakeNumpySetClipped("Training Data/", 3000, 50)
+train_x, train_y = spectrums.MakeNumpySetClipped("Training Data/", 3000, 300)
 
 n_classes = len(np.unique(train_y))
 

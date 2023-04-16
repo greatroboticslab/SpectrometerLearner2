@@ -11,6 +11,7 @@ import csv
 import os
 import time
 import wandb
+from torchviz import make_dot
 
 wandb.login()
 
@@ -273,13 +274,15 @@ timeEndE = 0
 timeArr = [0,0,0,0,0]
 timeID = 0
 
+
+
 for epoch in range(numEpochs):
     for batch_idx, (targets, data) in enumerate(trainLoader):
         
         #targets, data = trainLoader[i]
         
         #print("THEDATA")
-        print(data.shape)
+        #print(data.shape)
         #print(targets)
         data = data.to(device=device)
         targets = targets.type(torch.long).to(device)
@@ -288,6 +291,9 @@ for epoch in range(numEpochs):
         #print(data.shape)
         
         scores = model(data)
+        
+        #make_dot(scores.mean(), params=dict(model.named_parameters()))
+        
         loss = criterion(scores,targets)
         
         lossGraph.append(float(loss))

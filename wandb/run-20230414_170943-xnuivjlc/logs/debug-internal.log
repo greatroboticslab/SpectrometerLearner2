@@ -1,0 +1,382 @@
+2023-04-14 17:09:43,721 INFO    StreamThr :1704 [internal.py:wandb_internal():86] W&B internal server running at pid: 1704, started at: 2023-04-14 17:09:43.721861
+2023-04-14 17:09:43,726 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status
+2023-04-14 17:09:43,735 INFO    WriterThread:1704 [datastore.py:open_for_write():85] open: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\run-xnuivjlc.wandb
+2023-04-14 17:09:43,736 DEBUG   SenderThread:1704 [sender.py:send():375] send: header
+2023-04-14 17:09:43,948 DEBUG   SenderThread:1704 [sender.py:send():375] send: run
+2023-04-14 17:09:44,226 INFO    SenderThread:1704 [dir_watcher.py:__init__():219] watching files in: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files
+2023-04-14 17:09:44,226 INFO    SenderThread:1704 [sender.py:_start_run_threads():1124] run started: xnuivjlc with start time 1681517383.731854
+2023-04-14 17:09:44,226 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: summary_record
+2023-04-14 17:09:44,228 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:09:44,231 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: check_version
+2023-04-14 17:09:44,232 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: check_version
+2023-04-14 17:09:44,409 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: run_start
+2023-04-14 17:09:44,423 DEBUG   HandlerThread:1704 [system_info.py:__init__():31] System info init
+2023-04-14 17:09:44,423 DEBUG   HandlerThread:1704 [system_info.py:__init__():46] System info init done
+2023-04-14 17:09:44,423 INFO    HandlerThread:1704 [system_monitor.py:start():181] Starting system monitor
+2023-04-14 17:09:44,424 INFO    SystemMonitor:1704 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-14 17:09:44,424 INFO    HandlerThread:1704 [system_monitor.py:probe():201] Collecting system info
+2023-04-14 17:09:44,427 INFO    SystemMonitor:1704 [interfaces.py:start():190] Started cpu monitoring
+2023-04-14 17:09:44,428 DEBUG   HandlerThread:1704 [system_info.py:probe():195] Probing system
+2023-04-14 17:09:44,428 INFO    SystemMonitor:1704 [interfaces.py:start():190] Started disk monitoring
+2023-04-14 17:09:44,429 INFO    SystemMonitor:1704 [interfaces.py:start():190] Started memory monitoring
+2023-04-14 17:09:44,436 INFO    SystemMonitor:1704 [interfaces.py:start():190] Started network monitoring
+2023-04-14 17:09:44,438 DEBUG   HandlerThread:1704 [system_info.py:_probe_git():180] Probing git
+2023-04-14 17:09:44,545 DEBUG   HandlerThread:1704 [system_info.py:_probe_git():188] Probing git done
+2023-04-14 17:09:44,545 DEBUG   HandlerThread:1704 [system_info.py:probe():240] Probing system done
+2023-04-14 17:09:44,546 DEBUG   HandlerThread:1704 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19044-SP0', 'python': '3.9.13', 'heartbeatAt': '2023-04-15T00:09:44.428314', 'startedAt': '2023-04-15T00:09:43.697403', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Programs\\SpectrometerLearner\\vanilla_train.py', 'codePath': 'vanilla_train.py', 'git': {'remote': 'https://github.com/greatroboticslab/SpectrometerLearner2.git', 'commit': 'ebcdd81d0fabc80bbf2833c62b916d0871e4e6c5'}, 'email': 'seanbyler12@gmail.com', 'root': 'C:/Programs/SpectrometerLearner', 'host': 'DESKTOP-AB4NMKB', 'username': 'SS&AL', 'executable': 'E:\\conda3\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2500.0, 'min': 0.0, 'max': 3401.0}, 'cpu_freq_per_core': [{'current': 2500.0, 'min': 0.0, 'max': 3401.0}], 'disk': {'total': 232.33638381958008, 'used': 150.97118377685547}, 'memory': {'total': 15.892860412597656}}
+2023-04-14 17:09:44,546 INFO    HandlerThread:1704 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-14 17:09:44,546 INFO    HandlerThread:1704 [system_monitor.py:probe():214] Publishing system info
+2023-04-14 17:09:44,546 DEBUG   HandlerThread:1704 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-14 17:09:44,547 DEBUG   HandlerThread:1704 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-14 17:09:44,547 DEBUG   HandlerThread:1704 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-14 17:09:45,240 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\conda-environment.yaml
+2023-04-14 17:09:45,241 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json
+2023-04-14 17:09:45,241 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\requirements.txt
+2023-04-14 17:09:57,716 DEBUG   HandlerThread:1704 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-14 17:09:57,717 INFO    HandlerThread:1704 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-14 17:09:57,731 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:09:57,731 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-14 17:09:57,731 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:09:57,731 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: keepalive
+2023-04-14 17:09:57,732 DEBUG   SenderThread:1704 [sender.py:send():375] send: files
+2023-04-14 17:09:57,732 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-14 17:09:57,740 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:09:57,740 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:09:57,787 DEBUG   SenderThread:1704 [sender.py:send():375] send: telemetry
+2023-04-14 17:09:58,157 INFO    wandb-upload_0:1704 [upload_job.py:push():137] Uploaded file C:\Users\SS&AL\AppData\Local\Temp\tmp5soqxi79wandb\1ok2rzzh-wandb-metadata.json
+2023-04-14 17:09:58,395 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\conda-environment.yaml
+2023-04-14 17:09:58,396 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-metadata.json
+2023-04-14 17:09:59,802 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:04,847 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:09,878 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:12,752 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:10:12,754 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:10:15,861 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:16,599 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\config.yaml
+2023-04-14 17:10:20,977 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:26,017 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:27,770 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:10:27,771 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:10:31,835 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:36,871 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:41,919 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:42,776 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:10:42,777 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:10:44,447 DEBUG   SystemMonitor:1704 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-14 17:10:44,449 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:10:47,482 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:52,538 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:57,571 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:10:57,775 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:10:57,776 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:11:02,892 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:07,940 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:12,786 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:11:12,787 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:11:13,858 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:14,464 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:11:19,517 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:24,553 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:27,796 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:11:27,798 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:11:29,862 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:34,912 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:39,957 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:42,817 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:11:42,818 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:11:44,477 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:11:45,488 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:50,552 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:55,615 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:11:57,821 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:11:57,822 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:12:00,914 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:05,969 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:11,033 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:12,825 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:12:12,826 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:12:14,480 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:12:16,501 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:21,552 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:26,582 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:27,832 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:12:27,833 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:12:31,916 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:36,972 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:42,018 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:42,846 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:12:42,847 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:12:44,490 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:12:47,518 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:52,582 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:57,630 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:12:57,864 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:12:57,865 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:13:02,970 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:07,997 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:12,864 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:13:12,865 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:13:13,921 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:14,498 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:13:19,541 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:24,631 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:27,870 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:13:27,871 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:13:29,928 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:34,971 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:40,000 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:42,865 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:13:42,865 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:13:44,502 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:13:45,517 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:50,551 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:55,589 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:13:57,872 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:13:57,873 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:14:00,939 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:05,967 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:10,996 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:12,898 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:14:12,899 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:14:14,514 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:14:16,535 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:21,587 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:26,628 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:27,911 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:14:27,913 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:14:32,004 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:37,057 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:42,097 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:42,911 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:14:42,912 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:14:44,529 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:14:47,563 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:52,616 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:57,670 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:14:57,932 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:14:57,933 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:15:03,017 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:08,061 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:12,920 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:15:12,921 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:15:13,980 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:14,546 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:15:19,596 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:24,651 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:27,931 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:15:27,932 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:15:30,000 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:35,033 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:40,060 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:42,927 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:15:42,928 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:15:44,558 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:15:45,571 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:50,636 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:55,678 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:15:57,944 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:15:57,945 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:16:01,034 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:06,068 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:11,098 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:12,956 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:16:12,957 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:16:14,561 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:16:16,578 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:21,630 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:26,675 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:27,973 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:16:27,974 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:16:32,070 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:37,126 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:42,159 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:42,986 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:16:42,987 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:16:44,575 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:16:47,603 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:52,665 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:57,707 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:16:58,005 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:16:58,006 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:17:03,127 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:08,178 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:13,026 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:17:13,027 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:17:14,099 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:14,583 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:17:19,633 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:24,672 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:28,018 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:17:28,019 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:17:30,263 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:35,297 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:40,345 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:43,022 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:17:43,023 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:17:44,597 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:17:45,601 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:50,610 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:55,652 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:17:58,032 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-14 17:17:58,033 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: stop_status
+2023-04-14 17:18:01,118 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:18:05,753 DEBUG   SenderThread:1704 [sender.py:send():375] send: telemetry
+2023-04-14 17:18:05,771 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-14 17:18:05,772 DEBUG   SenderThread:1704 [sender.py:send():375] send: history
+2023-04-14 17:18:05,773 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: summary_record
+2023-04-14 17:18:05,774 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:06,128 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:18:06,329 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-14 17:18:06,330 DEBUG   SenderThread:1704 [sender.py:send():375] send: history
+2023-04-14 17:18:06,330 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: summary_record
+2023-04-14 17:18:06,331 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:06,585 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json
+2023-04-14 17:18:06,585 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\config.yaml
+2023-04-14 17:18:06,585 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\output.log
+2023-04-14 17:18:06,891 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-14 17:18:06,892 DEBUG   SenderThread:1704 [sender.py:send():375] send: history
+2023-04-14 17:18:06,892 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: summary_record
+2023-04-14 17:18:06,893 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:07,462 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-14 17:18:07,463 DEBUG   SenderThread:1704 [sender.py:send():375] send: history
+2023-04-14 17:18:07,463 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: summary_record
+2023-04-14 17:18:07,464 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:07,594 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json
+2023-04-14 17:18:08,030 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-14 17:18:08,031 DEBUG   SenderThread:1704 [sender.py:send():375] send: history
+2023-04-14 17:18:08,031 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: summary_record
+2023-04-14 17:18:08,032 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:08,601 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\output.log
+2023-04-14 17:18:08,601 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json
+2023-04-14 17:18:08,608 DEBUG   SenderThread:1704 [sender.py:send():375] send: exit
+2023-04-14 17:18:08,609 INFO    SenderThread:1704 [sender.py:send_exit():598] handling exit code: 0
+2023-04-14 17:18:08,609 INFO    SenderThread:1704 [sender.py:send_exit():600] handling runtime: 504
+2023-04-14 17:18:08,609 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:08,610 INFO    SenderThread:1704 [sender.py:send_exit():606] send defer
+2023-04-14 17:18:08,610 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,610 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-14 17:18:08,610 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,610 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-14 17:18:08,610 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 1
+2023-04-14 17:18:08,611 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,611 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-14 17:18:08,611 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,611 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-14 17:18:08,611 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 2
+2023-04-14 17:18:08,611 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,611 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-14 17:18:08,611 INFO    HandlerThread:1704 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-14 17:18:08,611 DEBUG   SystemMonitor:1704 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-14 17:18:08,612 INFO    HandlerThread:1704 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-14 17:18:08,612 DEBUG   SystemMonitor:1704 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-14 17:18:08,612 INFO    HandlerThread:1704 [interfaces.py:finish():202] Joined disk monitor
+2023-04-14 17:18:08,612 INFO    HandlerThread:1704 [interfaces.py:finish():202] Joined memory monitor
+2023-04-14 17:18:08,612 INFO    HandlerThread:1704 [interfaces.py:finish():202] Joined network monitor
+2023-04-14 17:18:08,613 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,613 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-14 17:18:08,613 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 3
+2023-04-14 17:18:08,613 DEBUG   SenderThread:1704 [sender.py:send():375] send: stats
+2023-04-14 17:18:08,613 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,614 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-14 17:18:08,614 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,614 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-14 17:18:08,614 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 4
+2023-04-14 17:18:08,614 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,615 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-14 17:18:08,615 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,615 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-14 17:18:08,615 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 5
+2023-04-14 17:18:08,615 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,615 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-14 17:18:08,616 DEBUG   SenderThread:1704 [sender.py:send():375] send: summary
+2023-04-14 17:18:08,616 INFO    SenderThread:1704 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-14 17:18:08,617 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,617 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-14 17:18:08,617 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 6
+2023-04-14 17:18:08,617 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,617 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-14 17:18:08,618 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,618 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-14 17:18:08,618 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 7
+2023-04-14 17:18:08,618 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: status_report
+2023-04-14 17:18:08,618 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:08,618 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-14 17:18:08,619 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:08,619 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-14 17:18:09,613 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json
+2023-04-14 17:18:09,627 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-14 17:18:09,806 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 8
+2023-04-14 17:18:09,807 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: poll_exit
+2023-04-14 17:18:09,807 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:09,808 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-14 17:18:09,808 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:09,809 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-14 17:18:09,879 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 9
+2023-04-14 17:18:09,880 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:09,880 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-14 17:18:09,880 DEBUG   SenderThread:1704 [sender.py:send():375] send: artifact
+2023-04-14 17:18:10,427 INFO    wandb-upload_0:1704 [upload_job.py:push():92] Skipped uploading C:\Users\SS&AL\AppData\Local\wandb\wandb\artifacts\staging\tmp9rnvv335
+2023-04-14 17:18:10,625 INFO    Thread-16 :1704 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\output.log
+2023-04-14 17:18:10,639 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-14 17:18:10,814 INFO    wandb-upload_1:1704 [upload_job.py:push():95] Uploaded file C:\Users\SS&AL\AppData\Local\wandb\wandb\artifacts\staging\tmpixdvv0nr
+2023-04-14 17:18:11,657 INFO    SenderThread:1704 [sender.py:send_artifact():1474] sent artifact job-https___github.com_greatroboticslab_SpectrometerLearner2.git_vanilla_train.py - {'id': 'QXJ0aWZhY3Q6NDI0NzA1OTE3', 'digest': '1557b74ec98eb1c5b8336189cbb4a828', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYyNDExMTIy', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDI0NjE0NDc4', 'versionIndex': 1}}, 'version': 'latest'}
+2023-04-14 17:18:11,657 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:11,657 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-14 17:18:11,657 INFO    SenderThread:1704 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-14 17:18:12,639 INFO    SenderThread:1704 [dir_watcher.py:finish():395] scan: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files
+2023-04-14 17:18:12,640 INFO    SenderThread:1704 [dir_watcher.py:finish():409] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\conda-environment.yaml conda-environment.yaml
+2023-04-14 17:18:12,642 INFO    SenderThread:1704 [dir_watcher.py:finish():409] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\config.yaml config.yaml
+2023-04-14 17:18:12,651 INFO    SenderThread:1704 [dir_watcher.py:finish():409] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\output.log output.log
+2023-04-14 17:18:12,665 INFO    SenderThread:1704 [dir_watcher.py:finish():409] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\requirements.txt requirements.txt
+2023-04-14 17:18:12,675 INFO    SenderThread:1704 [dir_watcher.py:finish():409] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-metadata.json wandb-metadata.json
+2023-04-14 17:18:12,677 INFO    SenderThread:1704 [dir_watcher.py:finish():409] scan save: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json wandb-summary.json
+2023-04-14 17:18:12,689 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 10
+2023-04-14 17:18:12,690 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: poll_exit
+2023-04-14 17:18:12,691 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:12,701 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-14 17:18:12,703 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:12,704 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-14 17:18:12,705 INFO    SenderThread:1704 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-14 17:18:13,010 INFO    wandb-upload_0:1704 [upload_job.py:push():137] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\conda-environment.yaml
+2023-04-14 17:18:13,131 INFO    wandb-upload_1:1704 [upload_job.py:push():137] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\config.yaml
+2023-04-14 17:18:13,166 INFO    wandb-upload_2:1704 [upload_job.py:push():137] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\output.log
+2023-04-14 17:18:13,216 INFO    wandb-upload_3:1704 [upload_job.py:push():137] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\requirements.txt
+2023-04-14 17:18:13,342 INFO    wandb-upload_4:1704 [upload_job.py:push():137] Uploaded file C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\files\wandb-summary.json
+2023-04-14 17:18:13,559 INFO    Thread-15 :1704 [sender.py:transition_state():626] send defer: 11
+2023-04-14 17:18:13,560 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:13,560 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-14 17:18:13,562 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:13,562 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-14 17:18:13,562 INFO    SenderThread:1704 [file_pusher.py:join():173] waiting for file pusher
+2023-04-14 17:18:13,562 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 12
+2023-04-14 17:18:13,563 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:13,563 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-14 17:18:13,564 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:13,565 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-14 17:18:13,800 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 13
+2023-04-14 17:18:13,801 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:13,801 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-14 17:18:13,802 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:13,802 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-14 17:18:13,803 INFO    SenderThread:1704 [sender.py:transition_state():626] send defer: 14
+2023-04-14 17:18:13,803 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: defer
+2023-04-14 17:18:13,804 INFO    HandlerThread:1704 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-14 17:18:13,805 DEBUG   SenderThread:1704 [sender.py:send():375] send: final
+2023-04-14 17:18:13,806 DEBUG   SenderThread:1704 [sender.py:send():375] send: footer
+2023-04-14 17:18:13,806 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: defer
+2023-04-14 17:18:13,806 INFO    SenderThread:1704 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-14 17:18:13,809 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-14 17:18:13,810 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: server_info
+2023-04-14 17:18:13,810 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-14 17:18:13,811 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-14 17:18:13,813 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: poll_exit
+2023-04-14 17:18:13,813 DEBUG   SenderThread:1704 [sender.py:send_request():402] send_request: server_info
+2023-04-14 17:18:13,877 INFO    MainThread:1704 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-14 17:18:13,877 INFO    MainThread:1704 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-14 17:18:13,878 INFO    MainThread:1704 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-04-14 17:18:13,884 DEBUG   HandlerThread:1704 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-14 17:18:13,884 INFO    HandlerThread:1704 [handler.py:finish():845] shutting down handler
+2023-04-14 17:18:14,821 INFO    WriterThread:1704 [datastore.py:close():298] close: C:\Programs\SpectrometerLearner\wandb\run-20230414_170943-xnuivjlc\run-xnuivjlc.wandb
+2023-04-14 17:18:14,884 INFO    SenderThread:1704 [sender.py:finish():1550] shutting down sender
+2023-04-14 17:18:14,884 INFO    SenderThread:1704 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-14 17:18:14,885 INFO    SenderThread:1704 [file_pusher.py:join():173] waiting for file pusher

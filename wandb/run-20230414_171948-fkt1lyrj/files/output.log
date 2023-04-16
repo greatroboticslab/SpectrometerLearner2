@@ -1,0 +1,217 @@
+Epoch 0/3500	ETA: 0.16324361165364584min.
+Validation accuracy: 50.0
+Validation loss: 19.617782592773438
+Epoch 50/3500	ETA: 5.677799820899963min.
+Validation accuracy: 100.0
+Validation loss: 0.00443643843755126
+Epoch 100/3500	ETA: 11.0776735941569min.
+Validation accuracy: 100.0
+Validation loss: 0.0003204198437742889
+Epoch 150/3500	ETA: 16.360992074012756min.
+Validation accuracy: 100.0
+Validation loss: 0.0002647062356118113
+Epoch 200/3500	ETA: 21.404771089553833min.
+Validation accuracy: 100.0
+Validation loss: 0.0002310791751369834
+Epoch 250/3500	ETA: 26.21252715587616min.
+Validation accuracy: 100.0
+Validation loss: 0.00020075698557775468
+Epoch 300/3500	ETA: 25.74525197347005min.
+Validation accuracy: 100.0
+Validation loss: 0.00017582421423867345
+Epoch 350/3500	ETA: 25.353504180908203min.
+Validation accuracy: 100.0
+Validation loss: 0.00015550751413684338
+Epoch 400/3500	ETA: 24.971730311711628min.
+Validation accuracy: 100.0
+Validation loss: 0.00013837756705470383
+Epoch 450/3500	ETA: 24.751864790916443min.
+Validation accuracy: 100.0
+Validation loss: 0.0001239580160472542
+Epoch 500/3500	ETA: 24.36607837677002min.
+Validation accuracy: 100.0
+Validation loss: 0.00011153414379805326
+Epoch 550/3500	ETA: 24.17618219057719min.
+Validation accuracy: 100.0
+Validation loss: 0.00010089760326081887
+Epoch 600/3500	ETA: 23.814725478490193min.
+Validation accuracy: 100.0
+Validation loss: 9.175053128274158e-05
+Epoch 650/3500	ETA: 23.480080485343933min.
+Validation accuracy: 100.0
+Validation loss: 8.385468390770257e-05
+Epoch 700/3500	ETA: 23.1054531733195min.
+Validation accuracy: 100.0
+Validation loss: 7.69419566495344e-05
+Epoch 750/3500	ETA: 22.775317033131916min.
+Validation accuracy: 100.0
+Validation loss: 7.08932348061353e-05
+Epoch 800/3500	ETA: 22.47817325592041min.
+Validation accuracy: 100.0
+Validation loss: 6.555955042131245e-05
+Epoch 850/3500	ETA: 22.317917784055073min.
+Validation accuracy: 100.0
+Validation loss: 6.0791950090788305e-05
+Epoch 900/3500	ETA: 21.844851493835446min.
+Validation accuracy: 100.0
+Validation loss: 5.653085827361792e-05
+Epoch 950/3500	ETA: 21.450242161750793min.
+Validation accuracy: 100.0
+Validation loss: 5.268689346848987e-05
+Epoch 1000/3500	ETA: 21.287834644317627min.
+Validation accuracy: 100.0
+Validation loss: 4.92302788188681e-05
+Epoch 1050/3500	ETA: 20.747793793678284min.
+Validation accuracy: 100.0
+Validation loss: 4.6131215640343726e-05
+Epoch 1100/3500	ETA: 20.116512298583984min.
+Validation accuracy: 100.0
+Validation loss: 4.3330124753993005e-05
+Epoch 1150/3500	ETA: 19.736552238464355min.
+Validation accuracy: 100.0
+Validation loss: 4.082699888385832e-05
+Epoch 1200/3500	ETA: 19.209356705347698min.
+Validation accuracy: 100.0
+Validation loss: 3.850265420624055e-05
+Epoch 1250/3500	ETA: 18.701809644699097min.
+Validation accuracy: 100.0
+Validation loss: 3.638689668150619e-05
+Epoch 1300/3500	ETA: 18.44055414199829min.
+Validation accuracy: 100.0
+Validation loss: 3.4509521356085315e-05
+Epoch 1350/3500	ETA: 18.066330472628277min.
+Validation accuracy: 100.0
+Validation loss: 3.281093813711777e-05
+Epoch 1400/3500	ETA: 17.711286544799805min.
+Validation accuracy: 100.0
+Validation loss: 3.120174369541928e-05
+Epoch 1450/3500	ETA: 17.366586565971375min.
+Validation accuracy: 100.0
+Validation loss: 2.971174762933515e-05
+Epoch 1500/3500	ETA: 17.171878814697266min.
+Validation accuracy: 100.0
+Validation loss: 2.8311143978498876e-05
+Epoch 1550/3500	ETA: 16.900188446044922min.
+Validation accuracy: 100.0
+Validation loss: 2.702973688428756e-05
+Epoch 1600/3500	ETA: 16.51748005549113min.
+Validation accuracy: 100.0
+Validation loss: 2.5837724024313502e-05
+Epoch 1650/3500	ETA: 16.11339803536733min.
+Validation accuracy: 100.0
+Validation loss: 2.473511267453432e-05
+Epoch 1700/3500	ETA: 15.677942276000978min.
+Validation accuracy: 100.0
+Validation loss: 2.37516997003695e-05
+Epoch 1750/3500	ETA: 14.962390462557476min.
+Validation accuracy: 100.0
+Validation loss: 2.2827884095022455e-05
+Epoch 1800/3500	ETA: 14.308205525080362min.
+Validation accuracy: 100.0
+Validation loss: 2.1993468180880882e-05
+Epoch 1850/3500	ETA: 13.882174015045168min.
+Validation accuracy: 100.0
+Validation loss: 2.1218653273535892e-05
+Epoch 1900/3500	ETA: 13.472235361735025min.
+Validation accuracy: 100.0
+Validation loss: 2.0503437553998083e-05
+Epoch 1950/3500	ETA: 13.072075486183168min.
+Validation accuracy: 100.0
+Validation loss: 1.9788218196481466e-05
+Epoch 2000/3500	ETA: 12.76020288467407min.
+Validation accuracy: 100.0
+Validation loss: 1.916240216814913e-05
+Epoch 2050/3500	ETA: 12.33945377667745min.
+Validation accuracy: 100.0
+Validation loss: 1.8506783817429096e-05
+Epoch 2100/3500	ETA: 11.932785352071127min.
+Validation accuracy: 100.0
+Validation loss: 1.7940566976903938e-05
+Epoch 2150/3500	ETA: 11.438919782638552min.
+Validation accuracy: 100.0
+Validation loss: 1.7344547813991085e-05
+Epoch 2200/3500	ETA: 11.036756912867228min.
+Validation accuracy: 100.0
+Validation loss: 1.680813147686422e-05
+Epoch 2250/3500	ETA: 10.576122999191284min.
+Validation accuracy: 100.0
+Validation loss: 1.6271711501758546e-05
+Epoch 2300/3500	ETA: 10.148114204406738min.
+Validation accuracy: 100.0
+Validation loss: 1.5765093849040568e-05
+Epoch 2350/3500	ETA: 9.671346465746561min.
+Validation accuracy: 100.0
+Validation loss: 1.5318077203119174e-05
+Epoch 2400/3500	ETA: 9.306147257486979min.
+Validation accuracy: 100.0
+Validation loss: 1.4841260053799488e-05
+Epoch 2450/3500	ETA: 8.834173321723938min.
+Validation accuracy: 100.0
+Validation loss: 1.4394242498383392e-05
+Epoch 2500/3500	ETA: 8.402582009633383min.
+Validation accuracy: 100.0
+Validation loss: 1.3947224942967296e-05
+Epoch 2550/3500	ETA: 7.979975024859111min.
+Validation accuracy: 100.0
+Validation loss: 1.353000698145479e-05
+Epoch 2600/3500	ETA: 7.574923038482666min.
+Validation accuracy: 100.0
+Validation loss: 1.3112789019942284e-05
+Epoch 2650/3500	ETA: 7.170963724454244min.
+Validation accuracy: 100.0
+Validation loss: 1.2755173884215765e-05
+Epoch 2700/3500	ETA: 6.7599232991536455min.
+Validation accuracy: 100.0
+Validation loss: 1.236775642610155e-05
+Epoch 2750/3500	ETA: 6.327314376831055min.
+Validation accuracy: 100.0
+Validation loss: 1.2039941793773323e-05
+Epoch 2800/3500	ETA: 5.903289874394735min.
+Validation accuracy: 100.0
+Validation loss: 1.1652524335659109e-05
+Epoch 2850/3500	ETA: 5.483795921007793min.
+Validation accuracy: 100.0
+Validation loss: 1.1354510206729174e-05
+Epoch 2900/3500	ETA: 5.01992654800415min.
+Validation accuracy: 100.0
+Validation loss: 1.1026694664906245e-05
+Epoch 2950/3500	ETA: 4.597904086112976min.
+Validation accuracy: 100.0
+Validation loss: 1.0728679626481608e-05
+Epoch 3000/3500	ETA: 4.201716581980388min.
+Validation accuracy: 100.0
+Validation loss: 1.0400863175163977e-05
+Epoch 3050/3500	ETA: 3.782970428466797min.
+Validation accuracy: 100.0
+Validation loss: 1.0102849046234041e-05
+Epoch 3100/3500	ETA: 3.370696703592936min.
+Validation accuracy: 100.0
+Validation loss: 9.834635420702398e-06
+Epoch 3150/3500	ETA: 2.96344510714213min.
+Validation accuracy: 100.0
+Validation loss: 9.566421795170754e-06
+Epoch 3200/3500	ETA: 2.5620105266571045min.
+Validation accuracy: 100.0
+Validation loss: 9.298207260144409e-06
+Epoch 3250/3500	ETA: 2.1157562732696533min.
+Validation accuracy: 100.0
+Validation loss: 9.029992725118063e-06
+Epoch 3300/3500	ETA: 1.7019745508829753min.
+Validation accuracy: 100.0
+Validation loss: 8.791579602984712e-06
+Epoch 3350/3500	ETA: 1.2714720964431763min.
+Validation accuracy: 100.0
+Validation loss: 8.553167390346061e-06
+Epoch 3400/3500	ETA: 0.8493135770161947min.
+Validation accuracy: 100.0
+Validation loss: 8.31475426821271e-06
+Epoch 3450/3500	ETA: 0.4215075572331746min.
+Validation accuracy: 100.0
+Validation loss: 8.076340236584656e-06
+Now checking final accuracy...
+Train Data:
+Checking training data
+Got 8 / 8 with accuracy  100.00
+Test Data:
+Checking training data
+Got 2 / 2 with accuracy  100.00

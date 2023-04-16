@@ -1,0 +1,26 @@
+2023-04-14 17:19:48,352 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Configure stats pid to 14172
+2023-04-14 17:19:48,352 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Loading settings from C:\Users\SS&AL\.config\wandb\settings
+2023-04-14 17:19:48,353 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Loading settings from C:\Programs\SpectrometerLearner\wandb\settings
+2023-04-14 17:19:48,353 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-14 17:19:48,353 INFO    MainThread:14172 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'vanilla_train.py', 'program': 'C:\\Programs\\SpectrometerLearner\\vanilla_train.py'}
+2023-04-14 17:19:48,355 INFO    MainThread:14172 [wandb_init.py:_log_setup():507] Logging user logs to C:\Programs\SpectrometerLearner\wandb\run-20230414_171948-fkt1lyrj\logs\debug.log
+2023-04-14 17:19:48,355 INFO    MainThread:14172 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Programs\SpectrometerLearner\wandb\run-20230414_171948-fkt1lyrj\logs\debug-internal.log
+2023-04-14 17:19:48,356 INFO    MainThread:14172 [wandb_init.py:init():547] calling init triggers
+2023-04-14 17:19:48,356 INFO    MainThread:14172 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-04-14 17:19:48,356 INFO    MainThread:14172 [wandb_init.py:init():595] starting backend
+2023-04-14 17:19:48,357 INFO    MainThread:14172 [wandb_init.py:init():599] setting up manager
+2023-04-14 17:19:48,380 INFO    MainThread:14172 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-04-14 17:19:48,396 INFO    MainThread:14172 [wandb_init.py:init():605] backend started and connected
+2023-04-14 17:19:48,405 INFO    MainThread:14172 [wandb_init.py:init():695] updated telemetry
+2023-04-14 17:19:48,622 INFO    MainThread:14172 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-04-14 17:19:48,863 INFO    MainThread:14172 [wandb_run.py:_on_init():2176] communicating current version
+2023-04-14 17:19:48,994 INFO    MainThread:14172 [wandb_run.py:_on_init():2185] got version response 
+2023-04-14 17:19:48,994 INFO    MainThread:14172 [wandb_init.py:init():782] starting run threads in backend
+2023-04-14 17:20:00,166 INFO    MainThread:14172 [wandb_run.py:_console_start():2157] atexit reg
+2023-04-14 17:20:00,166 INFO    MainThread:14172 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-04-14 17:20:00,166 INFO    MainThread:14172 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-04-14 17:20:00,166 INFO    MainThread:14172 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-04-14 17:20:00,167 INFO    MainThread:14172 [wandb_init.py:init():824] run started, returning control to user process
+2023-04-14 17:20:11,065 INFO    MainThread:14172 [wandb_watch.py:watch():51] Watching
+2023-04-14 17:20:51,513 WARNING MsgRouterThr:14172 [router.py:message_loop():77] message_loop has been closed

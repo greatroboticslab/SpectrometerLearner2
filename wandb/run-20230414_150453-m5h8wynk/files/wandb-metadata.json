@@ -1,0 +1,42 @@
+{
+    "os": "Windows-10-10.0.19044-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-04-14T22:04:53.751770",
+    "startedAt": "2023-04-14T22:04:53.176117",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Programs\\SpectrometerLearner\\vanilla_train.py",
+    "codePath": "vanilla_train.py",
+    "git": {
+        "remote": "https://github.com/greatroboticslab/SpectrometerLearner2.git",
+        "commit": "3b9d85445f5441e2c316bb80b85b0dcdc6686d71"
+    },
+    "email": "seanbyler12@gmail.com",
+    "root": "C:/Programs/SpectrometerLearner",
+    "host": "DESKTOP-AB4NMKB",
+    "username": "SS&AL",
+    "executable": "E:\\conda3\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 3401.0,
+        "min": 0.0,
+        "max": 3401.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3401.0,
+            "min": 0.0,
+            "max": 3401.0
+        }
+    ],
+    "disk": {
+        "total": 232.33638381958008,
+        "used": 151.68912887573242
+    },
+    "memory": {
+        "total": 15.892860412597656
+    }
+}
