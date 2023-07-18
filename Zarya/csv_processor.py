@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
 import glob
-import os
 from sklearn.preprocessing import LabelEncoder
 
 class CSVProcessor:
@@ -45,7 +44,7 @@ class CSVProcessor:
   def split(self, print_mapping=False, vector_array=False):
     df_transposed = self.process_csv_files()
     # Assuming df_transposed is your DataFrame after transposing
-    target_col = df_transposed.columns[0]  # Assuming the first column is the target variable
+    target_col = df_transposed.columns[0]
 
     # Extract the target variable (first row)
     target_variable = df_transposed.iloc[0]
