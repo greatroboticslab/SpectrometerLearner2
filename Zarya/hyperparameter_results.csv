@@ -1,0 +1,2 @@
+Hidden_Layer_Sizes,Activation,Dropout_Rate,Learning_Rate,Training_Accuracy,Testing_Accuracy
+"(256, 256)",relu,0.2,0.1,0.17149758711457253,0.4838709533214569
