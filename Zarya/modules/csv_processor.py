@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import pandas as pd
+import numpy as np
 import glob
 from sklearn.preprocessing import LabelEncoder
 
@@ -67,4 +68,4 @@ class CSVProcessor:
         encoded_target = encoded_target.reshape(-1, 1)
     input_features = input_features.T
     # Return the target variable and input features
-    return input_features, encoded_target
+    return input_features.astype('float64'), encoded_target

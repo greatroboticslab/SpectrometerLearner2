@@ -34,4 +34,4 @@ class DataAugmentation:
         X_train_augmented = np.concatenate((self.X_train.values, augmented_data), axis=0)
         y_train_augmented = np.concatenate((self.y_train, augmented_labels), axis=0)
 
-        return X_train_augmented, y_train_augmented
+        return pd.DataFrame(X_train_augmented), y_train_augmented
